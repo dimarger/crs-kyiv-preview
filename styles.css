@@ -158,9 +158,9 @@ body.viewing { overflow: hidden; }
   .mobile-nav:not([hidden]) { display: grid; padding-bottom: 1.1rem; }
   .mobile-nav a { padding: .85rem .1rem; border-top: 1px solid var(--rule); }
   .head-actions { gap: .4rem; }
-  .hero { grid-template-columns: 1fr; gap: 1.65rem; padding: 2.2rem 0 1.5rem; }
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 1.65rem; padding: 2.2rem 0 1.5rem; }
   .hero-copy { padding: 0; }
-  h1 { font-size: clamp(3.9rem, 12.5vw, 5.6rem); margin: 1.25rem 0 1.05rem; }
+  h1 { font-size: clamp(3.05rem, 15vw, 5.6rem); margin: 1.25rem 0 1.05rem; }
   .lead { max-width: 31rem; }
   .hero-actions { margin-top: 1.35rem; }
   .hero-photo .photo-link { height: clamp(17.5rem, 62vw, 25rem); border-radius: 1rem; }
